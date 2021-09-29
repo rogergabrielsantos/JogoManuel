@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+<title>Manuel o Anjo do ceu</title>
+<link rel = "stylesheet" type="text/css" href = "estiloJ.css">
+<script src="funcoes.js"></script>
+<meta charset= "utf-8"/>
+
+</head>
+<body>
+
+<div>
+<div id="inst">  <img src="intru.png" id="InstF" onclick="instrucao()"/> </div>
+<div id="jog">  <img src="jogar.png" id="jogF" onclick="jogar()"/> </div>
+
+<div id="int1">  <img src="inter.png" id="in1" onclick="resposta1()"/> </div>
+<div id="int2">  <img src="inter.png" id="in2" onclick="resposta2()"/> </div>
+<div id="int3">  <img src="inter.png" id="in3" onclick="resposta3()"/> </div>
+<div id="int4">  <img src="inter.png" id="in4" onclick="resposta4()"/> </div>
+
+<div id="balFace1">  <img src="" id="b1"/> </div>
+<div id="balFace2">  <img src="" id="b2"/> </div>
+<div id="balFace3">  <img src="" id="b3"/> </div>
+<div id="balFace4">  <img src="" id="b4"/> </div>
+
+<div id="balFim"> <img src="continuar.png" onclick="continua()" /> </div>
+<div id="balvelho">  <img src="" id="balvelho1"/> </div>
+<div id="balFinalizar"> <img src="" id="finalizar1" onclick="reiniciar()" /> </div>
+
+
+
+		<table>
+		<tr><td><img src="face1.png" id="cara1" onclick="dica1()"/></td><td rowspan = 4><img src="paginaj.png" id="principal"></td><td><img src="velho.png" id="veio" onclick="chama()" /></td></tr>
+		<tr><td><img src="face2.png" id="cara2" onclick="dica2()"/></td><td><img src="1p.png" id="nivel"></td></tr>
+		<tr><td><img src="face3.png" id="cara3" onclick="dica3()"/></td><td><img src="1p.png" id="vida"/></td></tr>
+		<tr><td><img src="face4.png" id="cara4" onclick="dica4()"/></td></td></td><td><img src="som1.png" id="cSom" onclick="som()"/></td></td></tr>
+		</table>
+<audio src="audios/audio.mp3" id="aud" autoplay loop>
+<audio src="audios/velho.mp3" id="aud1" >
+<audio src="audios/acertou.mp3" id="aud2">
+<audio src="audios/errou.mp3" id="aud3" >
+
+</div>
+
+</body>
+</html>
